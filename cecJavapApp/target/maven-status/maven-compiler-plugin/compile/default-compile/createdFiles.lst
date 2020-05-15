@@ -1,0 +1,14 @@
+com\cec\contact\service\impl\CEC_AWSS3ServiceImpl.class
+com\cec\contact\CEC_SpringBootDemoApplication.class
+com\cec\contact\service\CEC_AWSS3Service.class
+com\cec\contact\config\CEC_DatabaseConfig.class
+com\cec\contact\model\CEC_HelpCentreTranslator.class
+com\cec\contact\service\impl\CEC_CecHelpCentreServiceImpl.class
+com\cec\contact\service\CEC_ContactService.class
+com\cec\contact\repository\CEC_HelpCentreRepository.class
+com\cec\contact\controller\CEC_HelpCentreController.class
+com\cec\contact\model\CEC_HelpCentre.class
+com\cec\contact\repository\CEC_HelpCentreTranslatorRepository.class
+com\cec\contact\constant\CEC_Constants.class
+com\cec\contact\service\CEC_HelpCentreService.class
+com\cec\contact\config\CEC_AWSS3Config.class
