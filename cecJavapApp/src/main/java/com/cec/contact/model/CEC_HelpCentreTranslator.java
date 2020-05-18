@@ -22,6 +22,83 @@ public class CEC_HelpCentreTranslator {
 
 	@Column(name = "sfid")
 	private String sfid;
+	
+	
+	
+	
+	@Column(name = "cec_privacy_policy_cookies_and_opt_ins__c")
+	private String privacyCookieOpt;
+	
+	@Column(name = "CEC_Enquiry_Type_Option0__c")
+	private String enquiryTypeOp0;
+	
+	
+	
+	@Column(name = "cec_helptext_production_code__c")
+	private String helpTextProductionCode;
+	
+	@Column(name = "cec_message_please_try_again__c")
+	private String pleaseTryAgain;
+	
+	
+	@Column(name = "cec_error_valid_email_address__c")
+	private String validEmail;
+	
+	
+	@Column(name = "cec_name_of_site__c")
+	private String nameOfSite;
+	
+	
+	@Column(name = "cec_submit__c")
+	private String submit;
+	
+	
+	@Column(name = "cec_product_details__c")
+	private String productionDetail;
+	
+	
+	@Column(name = "cec_your_details__c")
+	private String yourDetails;
+	
+	
+	@Column(name = "cec_enquiry_type__c")
+	private String enquiryType;
+	
+	
+	@Column(name = "cec_enquiry_type_option2__c")
+	private String enquiryTypeOp2;
+	
+	
+	@Column(name = "cec_error_form_submission__c")
+	private String errorFormSubmission;
+	
+	@Column(name = "cec_enquiry_type_option1__c")
+	private String enquiryTypeOp1;
+	
+	@Column(name = "cec_instruction__c	")
+	private String instruction;
+	
+	@Column(name = "cec_error_required_field__c")
+	private String errorRequiredField;
+	
+	@Column(name = "cec_additional_details__c")
+	private String additionalDetail;
+	
+	@Column(name = "cec_give_more_details_to_respond__c")
+	private String giveMoreDetails;
+	
+	@Column(name = "cec_browse__c")
+	private String browse;
+	
+	@Column(name = "cec_additional_details_option3__c")
+	private String additionalDetailOp3;
+	
+	@Column(name = "cec_additional_details_option2__c")
+	private String additionalDetailOp2;
+	
+	@Column(name = "cec_additional_details_option1__c")
+	private String additionalDetailOp1;
+	
 
 	@Column(name = "cec_others__c")
 	private String cecOthers;
@@ -80,11 +157,15 @@ public class CEC_HelpCentreTranslator {
 	@Column(name = "cec_where_do_you_usually_buy_product__c")
 	private String whereDo;
 
-	@Column(name = "cec_name_retailer__c")
-	private String nemeRetailer;
 
 	@Column(name = "cec_pictures_attachments__c")
 	private String pictureAttachment;
+	
+	
+	@Column(name = "cec_name_retailer__c")
+	private String nameRetailer;
+	
+	
 
 	
 	public CEC_HelpCentreTranslator() {
@@ -302,15 +383,7 @@ public class CEC_HelpCentreTranslator {
 	}
 
 
-	public String getNemeRetailer() {
-		return nemeRetailer;
-	}
-
-
-	public void setNemeRetailer(String nemeRetailer) {
-		this.nemeRetailer = nemeRetailer;
-	}
-
+	
 
 	public String getPictureAttachment() {
 		return pictureAttachment;
@@ -321,6 +394,226 @@ public class CEC_HelpCentreTranslator {
 		this.pictureAttachment = pictureAttachment;
 	}
 
-	
 
+	public String getPrivacyCookieOpt() {
+		return privacyCookieOpt;
+	}
+
+
+	public void setPrivacyCookieOpt(String privacyCookieOpt) {
+		this.privacyCookieOpt = privacyCookieOpt;
+	}
+
+
+	public String getHelpTextProductionCode() {
+		return helpTextProductionCode;
+	}
+
+
+	public void setHelpTextProductionCode(String helpTextProductionCode) {
+		this.helpTextProductionCode = helpTextProductionCode;
+	}
+
+
+	public String getPleaseTryAgain() {
+		return pleaseTryAgain;
+	}
+
+
+	public void setPleaseTryAgain(String pleaseTryAgain) {
+		this.pleaseTryAgain = pleaseTryAgain;
+	}
+
+
+	public String getValidEmail() {
+		return validEmail;
+	}
+
+
+	public void setValidEmail(String validEmail) {
+		this.validEmail = validEmail;
+	}
+
+
+	public String getNameOfSite() {
+		return nameOfSite;
+	}
+
+
+	public void setNameOfSite(String nameOfSite) {
+		this.nameOfSite = nameOfSite;
+	}
+
+
+	public String getSubmit() {
+		return submit;
+	}
+
+
+	public void setSubmit(String submit) {
+		this.submit = submit;
+	}	
+
+
+	public String getProductionDetail() {
+		return productionDetail;
+	}
+
+
+	public void setProductionDetail(String productionDetail) {
+		this.productionDetail = productionDetail;
+	}
+
+
+	public String getYourDetails() {
+		return yourDetails;
+	}
+
+
+	public void setYourDetails(String yourDetails) {
+		this.yourDetails = yourDetails;
+	}
+
+
+	public String getEnquiryType() {
+		return enquiryType;
+	}
+
+
+	public void setEnquiryType(String enquiryType) {
+		this.enquiryType = enquiryType;
+	}
+
+
+	public String getEnquiryTypeOp2() {
+		return enquiryTypeOp2;
+	}
+
+
+	public void setEnquiryTypeOp2(String enquiryTypeOp2) {
+		this.enquiryTypeOp2 = enquiryTypeOp2;
+	}
+
+
+	public String getErrorFormSubmission() {
+		return errorFormSubmission;
+	}
+
+
+	public void setErrorFormSubmission(String errorFormSubmission) {
+		this.errorFormSubmission = errorFormSubmission;
+	}
+
+
+	public String getEnquiryTypeOp1() {
+		return enquiryTypeOp1;
+	}
+
+
+	public void setEnquiryTypeOp1(String enquiryTypeOp1) {
+		this.enquiryTypeOp1 = enquiryTypeOp1;
+	}
+
+
+	public String getInstruction() {
+		return instruction;
+	}
+
+
+	public void setInstruction(String instruction) {
+		this.instruction = instruction;
+	}
+
+
+	public String getErrorRequiredField() {
+		return errorRequiredField;
+	}
+
+
+	public void setErrorRequiredField(String errorRequiredField) {
+		this.errorRequiredField = errorRequiredField;
+	}
+
+
+	public String getAdditionalDetail() {
+		return additionalDetail;
+	}
+
+
+	public void setAdditionalDetail(String additionalDetail) {
+		this.additionalDetail = additionalDetail;
+	}
+
+
+	public String getGiveMoreDetails() {
+		return giveMoreDetails;
+	}
+
+
+	public void setGiveMoreDetails(String giveMoreDetails) {
+		this.giveMoreDetails = giveMoreDetails;
+	}
+
+
+	public String getBrowse() {
+		return browse;
+	}
+
+
+	public void setBrowse(String browse) {
+		this.browse = browse;
+	}
+
+
+	public String getAdditionalDetailOp3() {
+		return additionalDetailOp3;
+	}
+
+
+	public void setAdditionalDetailOp3(String additionalDetailOp3) {
+		this.additionalDetailOp3 = additionalDetailOp3;
+	}
+
+
+	public String getAdditionalDetailOp2() {
+		return additionalDetailOp2;
+	}
+
+
+	public void setAdditionalDetailOp2(String additionalDetailOp2) {
+		this.additionalDetailOp2 = additionalDetailOp2;
+	}
+
+
+	public String getAdditionalDetailOp1() {
+		return additionalDetailOp1;
+	}
+
+
+	public void setAdditionalDetailOp1(String additionalDetailOp1) {
+		this.additionalDetailOp1 = additionalDetailOp1;
+	}
+
+
+	public String getEnquiryTypeOp0() {
+		return enquiryTypeOp0;
+	}
+
+
+	public void setEnquiryTypeOp0(String enquiryTypeOp0) {
+		this.enquiryTypeOp0 = enquiryTypeOp0;
+	}
+
+
+	public String getNameRetailer() {
+		return nameRetailer;
+	}
+
+
+	public void setNameRetailer(String nameRetailer) {
+		this.nameRetailer = nameRetailer;
+	}	
+	
+	
+	
 }

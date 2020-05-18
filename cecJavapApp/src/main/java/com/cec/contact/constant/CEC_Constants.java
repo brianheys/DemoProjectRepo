@@ -24,6 +24,49 @@ public class CEC_Constants {
 	public static String DEPLOYED ="Deployed";
 	public static String FILE_UPLOAD_STATUS ="FileUploadStatus";
 	
+	public static String CEC_Enquiry_Type__c ="!CEC_Enquiry_Type__c";
+	public static String CEC_Enquiry_Type_Option0__c ="!CEC_Enquiry_Type_Option0__c";
+	public static String CEC_Enquiry_Type_Option1__c ="!CEC_Enquiry_Type_Option1__c";
+	public static String CEC_Enquiry_Type_Option2__c ="!CEC_Enquiry_Type_Option2__c";
+	public static String CEC_Additional_Details__c ="!CEC_Additional_Details__c";
+	public static String CEC_Additional_Details_Option1__c ="!CEC_Additional_Details_Option1__c";
+	public static String CEC_Additional_Details_Option2__c ="!CEC_Additional_Details_Option2__c";
+	public static String CEC_Additional_Details_Option3__c ="!CEC_Additional_Details_Option3__c";
+	public static String CEC_Your_Details__c ="!CEC_Your_Details__c";
+	public static String CEC_First_Name__c ="!CEC_First_Name__c";
+	public static String CEC_Last_Name__c ="!CEC_Last_Name__c";
+	public static String CEC_Email_Address__c ="!CEC_Email_Address__c";
+	public static String CEC_Product_Details__c ="!CEC_Product_Details__c";
+	public static String CEC_Product_Name__c ="!CEC_Product_Name__c";
+	public static String CEC_Barcode_EAN_GTIN__c ="!CEC_Barcode_EAN_GTIN__c";
+	public static String CEC_Production_Code__c ="!CEC_Production_Code__c";
+	public static String CEC_Pictures_Attachments__c ="!CEC_Pictures_Attachments__c";
+	public static String CEC_Browse__c ="!CEC_Browse__c";
+	public static String CEC_How_Often_Do_You_Use_This_Product__c ="!CEC_How_Often_Do_You_Use_This_Product__c";
+	public static String CEC_Daily__c ="!CEC_Daily__c";
+	public static String CEC_Weekly__c ="!CEC_Weekly__c";
+	public static String CEC_Monthly__c ="!CEC_Monthly__c";
+	public static String CEC_Yearly__c ="!CEC_Yearly__c";
+	public static String CEC_Where_Do_You_Usually_Buy_Product__c ="!CEC_Where_Do_You_Usually_Buy_Product__c";
+	public static String CEC_Retailer__c ="!CEC_Retailer__c";
+	public static String CEC_Name_Retailer__c ="!CEC_Name_Retailer__c";
+	
+	public static String CEC_Online__c ="!CEC_Online__c";
+	public static String CEC_Name_of_site__c ="!CEC_Name_of_site__c";
+	public static String CEC_Others__c ="!CEC_Others__c";
+	public static String CEC_Name_Shop__c ="!CEC_Name_Shop__c";
+	public static String CEC_Give_More_Details_To_Respond__c ="!CEC_Give_More_Details_To_Respond__c";
+	public static String CEC_Privacy_Policy_Cookies_And_Opt_In__c ="!CEC_Privacy_Policy_Cookies_And_Opt_In__c";
+	public static String CEC_Instruction__c ="!CEC_Instruction__c";
+	public static String CEC_Age_Check__c ="!CEC_Age_Check__c";
+	public static String CEC_Marketing_Consent_For_Newsletter__c ="!CEC_Marketing_Consent_For_Newsletter__c";
+	public static String CEC_Submit__c ="!CEC_Submit__c";
+	public static String CEC_Error_Form_Submission__c ="!CEC_Error_Form_Submission__c";
+	public static String CEC_Error_Required_Field__c ="!CEC_Error_Required_Field__c";
+	public static String CEC_Error_Valid_Email_Address__c ="!CEC_Error_Valid_Email_Address__c";
+	public static String CEC_HelpText_Production_Code__c ="!CEC_HelpText_Production_Code__c";
+	public static String CEC_Message_Please_Try_Again__c ="!CEC_Message_Please_Try_Again__c";
+	
 	
 	
 }
