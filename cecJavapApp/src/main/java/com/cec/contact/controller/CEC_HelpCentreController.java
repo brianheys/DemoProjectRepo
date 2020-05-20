@@ -169,13 +169,13 @@ public class CEC_HelpCentreController {
 					if (flag == true) {
 						response.addObject(CEC_Constants.NAME, "S3 bucket Upload Successful");
 
-						try {
+					/*	try {
 							cecHelpCentreService.updateStatus("Deployed", cecHelpCentre.getId());
 							response.addObject(CEC_Constants.NAME, "S3 bucket Upload Successful");
 						} catch (Exception e) {
 							LOGGER.error("Error updating CECHelpCentre" + e.getMessage(), e);
 							response.addObject(CEC_Constants.NAME, "Error while Updating CECHelpCentre");
-						}
+						}*/
 
 					} else {
 						desPath.toFile().delete();
