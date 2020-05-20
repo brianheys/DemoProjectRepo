@@ -66,7 +66,7 @@ public class CEC_Constants {
 	public static String CEC_Error_Valid_Email_Address__c ="!CEC_Error_Valid_Email_Address__c";
 	public static String CEC_HelpText_Production_Code__c ="!CEC_HelpText_Production_Code__c";
 	public static String CEC_Message_Please_Try_Again__c ="!CEC_Message_Please_Try_Again__c";
-	
-	
-	
+	public static String cec_privacy_notice__c ="!cec_privacy_notice__c";
+	public static String cec_terms_of_use__c ="!cec_terms_of_use__c";
+	public static String cec_cookie_notice__c ="!cec_cookie_notice__c";	
 }

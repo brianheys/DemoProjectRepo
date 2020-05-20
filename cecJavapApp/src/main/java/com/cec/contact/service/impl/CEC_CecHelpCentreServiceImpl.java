@@ -44,9 +44,9 @@ public class CEC_CecHelpCentreServiceImpl implements CEC_HelpCentreService {
 
 	@Override
 	public CEC_HelpCentreTranslator findTranslator(String sfid) {
-		LOGGER.info("updateStatus====>>Start");
+		LOGGER.info("findTranslator====>>Start");
 		CEC_HelpCentreTranslator cec_HelpCentreTranslator = cec_HelpCentreTranslatorRepository.findBySfid(sfid);
-	    LOGGER.info("updateStatus====>>End");
+	    LOGGER.info("findTranslator====>>End");
 		return cec_HelpCentreTranslator;
 	}
 	

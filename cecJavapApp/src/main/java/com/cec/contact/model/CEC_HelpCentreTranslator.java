@@ -165,7 +165,14 @@ public class CEC_HelpCentreTranslator {
 	@Column(name = "cec_name_retailer__c")
 	private String nameRetailer;
 	
+	@Column(name = "cec_privacy_notice__c")
+	private String privacyNotice;
 	
+	@Column(name = "cec_cookie_notice__c")
+	private String cookieNotice;
+	
+	@Column(name = "cec_terms_of_use__c")
+	private String termsOfUse;	
 
 	
 	public CEC_HelpCentreTranslator() {
@@ -612,8 +619,36 @@ public class CEC_HelpCentreTranslator {
 
 	public void setNameRetailer(String nameRetailer) {
 		this.nameRetailer = nameRetailer;
-	}	
-	
-	
+	}
+
+
+	public String getPrivacyNotice() {
+		return privacyNotice;
+	}
+
+
+	public void setPrivacyNotice(String privacyNotice) {
+		this.privacyNotice = privacyNotice;
+	}
+
+
+	public String getCookieNotice() {
+		return cookieNotice;
+	}
+
+
+	public void setCookieNotice(String cookieNotice) {
+		this.cookieNotice = cookieNotice;
+	}
+
+
+	public String getTermsOfUse() {
+		return termsOfUse;
+	}
+
+
+	public void setTermsOfUse(String termsOfUse) {
+		this.termsOfUse = termsOfUse;
+	}		
 	
 }

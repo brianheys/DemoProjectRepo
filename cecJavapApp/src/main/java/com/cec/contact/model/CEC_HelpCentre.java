@@ -95,6 +95,9 @@ public class CEC_HelpCentre {
 	
 	@Column(name = "cec_help_centre_language__c")
 	private String cecHelpCentrelanguage;
+	
+	@Column(name="cec_mulesoft_contact_us_end_point__c")
+	private String muleSoftEndPoint;
 
 	public CEC_HelpCentre() {
 		super();
@@ -308,6 +311,13 @@ public class CEC_HelpCentre {
 
 	public void setCecHelpCentrelanguage(String cecHelpCentrelanguage) {
 		this.cecHelpCentrelanguage = cecHelpCentrelanguage;
-	}	
+	}
 
+	public String getMuleSoftEndPoint() {
+		return muleSoftEndPoint;
+	}
+
+	public void setMuleSoftEndPoint(String muleSoftEndPoint) {
+		this.muleSoftEndPoint = muleSoftEndPoint;
+	}
 }
