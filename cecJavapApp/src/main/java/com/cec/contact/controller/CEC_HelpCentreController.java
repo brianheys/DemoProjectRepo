@@ -46,7 +46,7 @@ public class CEC_HelpCentreController {
 	@RequestMapping("/")
 	public ModelAndView showEditProductPage() throws IOException {
 
-		 //boolean status = cec_AWSS3Service.uploadFile(uploadPath.toFile(), "");
+	//	 boolean status = cec_AWSS3Service.uploadFile(uploadPath.toFile(), "script");
 
 		byte[] data = null;
 		ModelAndView response = new ModelAndView(CEC_Constants.FILE_UPLOAD_STATUS);

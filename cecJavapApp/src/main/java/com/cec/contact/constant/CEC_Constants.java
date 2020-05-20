@@ -10,7 +10,7 @@ public class CEC_Constants {
 	public static String DB_URL ="jdbc:postgresql://";
 	public static String USER_DIR ="user.dir";
 	public static String PATH_LOCATION ="\\src\\main\\resources\\templates\\srcFile.js";
-	public static String DOWNLOAD_FILE_PATH ="CLPContentExport/prod/deffppubclpl001/Brand_pages/main.js";
+	public static String DOWNLOAD_FILE_PATH ="CLPContentExport/prod/deffppubclpl001/Brand_pages/script/main.js";
 	public static String CEC_LANGUAGE_C ="!CEC_Language_c";
 	public static String EN ="EN";
 	public static String CEC_COUNTRY_C ="!CEC_Country_c";
