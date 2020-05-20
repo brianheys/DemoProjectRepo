@@ -1,1 +1,1 @@
-worker: java -cp target/classes/* com.cec.contact.CEC_SpringBootDemoApplication
+worker: java -jar target/cec-contact-0.0.1-SNAPSHOT.jar
