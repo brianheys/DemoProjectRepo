@@ -156,7 +156,7 @@ public class CEC_HelpCentreController {
 								.replace(CEC_Constants.CEC_Error_Valid_Email_Address__c,
 										cec_HelpCentreTranslator.getValidEmail()))
 								.collect(Collectors.toList());
-						desPath = Paths.get(projectPath + File.separator + CEC_Constants.TEMPLATES_PATH
+						desPath = Paths.get(projectPath + File.separator /*+ CEC_Constants.TEMPLATES_PATH*/
 								+ cecHelpCentre.getAwsFileName());
 
 						Files.write(desPath, replaced);
@@ -169,13 +169,13 @@ public class CEC_HelpCentreController {
 					if (flag == true) {
 						response.addObject(CEC_Constants.NAME, "S3 bucket Upload Successful");
 
-						try {
+						/*try {
 							cecHelpCentreService.updateStatus("Deployed", cecHelpCentre.getId());
 							response.addObject(CEC_Constants.NAME, "S3 bucket Upload Successful");
 						} catch (Exception e) {
 							LOGGER.error("Error updating CECHelpCentre" + e.getMessage(), e);
 							response.addObject(CEC_Constants.NAME, "Error while Updating CECHelpCentre");
-						}
+						}*/
 
 					} else {
 						desPath.toFile().delete();
